@@ -149,3 +149,7 @@
 8월 19, 2024 14:31:26.50 Created TensorFlow Lite XNNPACK delegate for CPU.
 8월 19, 2024 14:32:01.45 Created TensorFlow Lite XNNPACK delegate for CPU.
 8월 19, 2024 15:13:21.13 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 19, 2024 15:29:22.21 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 19, 2024 16:09:34.17 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 19, 2024 18:09:16.52 [15140:18884:0819/180916.525:ERROR:mcs_client.cc(749)] Received close command, resetting connection.
+8월 19, 2024 18:12:15.75 Created TensorFlow Lite XNNPACK delegate for CPU.

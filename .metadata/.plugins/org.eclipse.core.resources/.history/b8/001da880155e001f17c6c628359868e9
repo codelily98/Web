@@ -1,0 +1,26 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+public class B_13136 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int r = scanner.nextInt();
+		int c = scanner.nextInt();
+		int n = scanner.nextInt();
+		int result1 = 0;
+		int result2 = 0;
+		
+		if(r % n == 0) {
+			result1 = r / n;
+			if(c % n == 0) {
+				result2 = c / n;
+			} else {
+				result2 = c / n + 1;
+			}
+		}
+		
+		
+	}
+}

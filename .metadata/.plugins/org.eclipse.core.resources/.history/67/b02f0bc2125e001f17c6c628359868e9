@@ -1,0 +1,15 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+public class B_31429 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int n = scanner.nextInt();
+		
+		switch(n) {
+			case 1:
+				System.out.println("12" + " 1600");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 onmouseover="showResult()" onmouseout="hideResult()" style="border: 1px solid red;"></h1>
+</body>
+</html>

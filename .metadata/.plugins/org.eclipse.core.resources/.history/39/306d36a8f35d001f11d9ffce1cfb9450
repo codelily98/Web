@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Function 03</title>
+</head>
+<body>
+<script type="text/javascript">
+function f(x, y) {
+	var z = x + y;
+	
+	if(z < 10) {
+		return;
+	}
+	return z;
+}
+
+let a = f(2, 1);
+document.write(a);
+</script>
+</body>
+</html>
