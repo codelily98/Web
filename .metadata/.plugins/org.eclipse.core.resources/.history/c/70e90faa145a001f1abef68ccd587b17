@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+@import url("./main.css");
+@import url("./rest.css");
+.header {
+	color: #006699;
+	margin-left: 2em;
+}
+</style>
+</head>
+<body>
+<dl class="skip">
+	<dt>skip navigation</dt>
+	<dd><a href="#content">skip to content</a></dd>
+</dl><!-- //skip -->
+<hr/>
+	
+<div id="wrap">
+	<div id="header"><!-- header -->
+		<h2>LOGO</h2>
+	</div>
+	
+	<div id="container">
+		<div class="snb"></div><!-- snb -->
+		<hr/>
+		<div id="content"></div><!-- content -->
+	</div><!-- container -->
+	
+	<div id="footer"><!-- footer -->
+		<div id="copylight">
+		Copyright&copy; COMPANYDesign<br>
+		Powered by Webazit, e-mail : webmaster@company.com
+		</div>
+		<ul>
+			<li><a href="#about">About</a></li>
+		</ul>
+		<div id="gomenu"></div>
+	</div>
+</div><!-- wrap -->
+</body>
+</html>

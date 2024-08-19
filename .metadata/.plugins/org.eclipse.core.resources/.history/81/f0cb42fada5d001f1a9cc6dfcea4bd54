@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JavaScript 02</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	let num;
+	let msg;
+	
+	num = 12345;
+	msg = 'hello';
+	
+	document.write(num + "<br>");
+	document.write(msg + "<br>");
+	
+	num = "aaa";
+	document.write(num + '<br>');
+	
+	let exist = true;	//boolean
+	document.write(exist + '<br>');
+	
+	let value1 = null;
+	let value2;	//undefined 정의 되지 않음
+	document.write(value1 + '<br>');
+	document.write(value2 + '<br>');
+	
+	//Java의 지역변수와 같다.(구역단위)
+	let a = 100;
+	
+	a = 250;
+	
+	console.log(a);
+</script>
+</body>
+</html>
+
+<!-- 
+변수
+변수의 자료형은 값이 할당될 때 자동으로 결정된다.
+var, let, const으로 선언
+
+var = 가장 많이 씀
+let = JAVA의 로컬변수와 같다
+const = 상수 (변하지 않음)
+
+//선언
+var a; 
+var b;
+
+//할당
+a = 10; 
+b = 43.5;
+ -->

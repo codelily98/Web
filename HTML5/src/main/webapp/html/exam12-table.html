@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>table3</title>
+</head>
+
+<body>
+	<h1>Cell과 내용 사이의 여백 - cellpadding</h1>
+	<table border = "1" cellpadding = "30">
+		<tr>
+			<td valign = "middle">1-1</td>
+			<td valign = "middle">1-2</td>
+		</tr> 
+	</table>
+	<hr/>
+	
+	<h1>Cell과 Cell 사이의 여백 - cellspacing</h1>
+	<table border = "1" cellspacing = "10">
+		<tr>
+			<td valign = "middle">1-1</td>
+			<td valign = "middle">1-2</td>
+		</tr> 
+	</table>
+	<hr/>
+	
+	
+	<table border = "1" width = "180" cellspacing = "0" cellpadding = "5">
+		<tr>
+			<td valign = "middle" align = "left">1-1</td>
+			<td height = " 25" valign = "middle" align = "center">1-2</td>
+		</tr>
+		
+		<tr>
+			<td height = " 25" valign = "middle" align = "left">2-1</td>
+			<td width = "40" height = " 25" valign = "middle" align = "center">2-2</td>
+		</tr>		
+		
+		<tr>
+			<td height = "25" colspan = "2" align = "center">3-1</td>
+		</tr>
+			
+		<tr>
+			<td rowspan = "2" align = "center"> 
+				<img alt = "망상토끼" width = "120" heigth = "120" src = "../image/img1.gif" valign = "middle" align = "center"
+				onclick = "location.href = 'http://www.naver.com/'"
+				style = "cursor : pointer;"/>
+			</td>
+			<td width = "40" valign = "middle" align = "center">4-2</td>
+		</tr>
+		
+		<tr>
+			<td width = "40" valign = "middle" align = "center">5-2</td>
+		</tr>
+	</table>
+</body>
+</html>

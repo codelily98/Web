@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Person</title>
+</head>
+
+<body>
+	<form>
+		<table border="1" cellspacing="0" cellpadding="5">
+			<tr>
+				<th width="70">이름</th>
+				<td><input type="text" name="user_name" id="name" size="20"
+					placeholder="이름 입력" /></td>
+			</tr>
+
+			<tr>
+				<th>성별</th>
+				<!-- radio는 값을 배열로 전달한다. -->
+				<td><input type="radio" name="gender" id="gender_m" value="0"
+					checked /> <label for="gender_m">남</label> <input type="radio"
+					name="gender" id="gender_f" value="1" /> <label for="gender_f">여</label>
+				</td>
+			</tr>
+
+			<tr>
+				<th>색깔</th>
+				<section>
+				
+				</section>
+				<td>
+					<select name = "color" style="width : 100px;">
+						<optgroup label="색깔">
+							<option value="red">빨강</option>
+							<option value="green">초록</option>
+							<option value="blue">파랑</option>
+							<option value="magenta">보라</option>
+							<option value="cyan">하늘</option>
+						</optgroup>	
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<th>취미</th>
+				<td>
+					<label>
+						<input type="checkbox" name="hobby" id="hobby1" value="독서">독서
+					</label>
+					<label>
+						<input type="checkbox" name="hobby" id="hobby2" value="영화">	영화
+					</label>
+					<label>
+						<input type="checkbox" name="hobby" id="hobby3" value="음악">음악
+					</label>
+					<label>
+						<input type="checkbox" name="hobby" id="hobby4" value="게임">게임
+					</label>
+					<label>
+						<input type="checkbox" name="hobby" id="hobby5" value="운동">운동
+					</label> 
+				</td>
+			</tr>
+
+			<tr>
+				<th>과목</th>
+				<td>
+					<select name="subject" multiple size="6" style="width : 120px;">
+						<option value="JAVA">JAVA</option>
+						<option value="Servlet">Servlet</option>
+						<option value="HTML" selected="selected">HTML</option>
+						<option value="Spring">Spring</option>
+					</select>
+				</td>
+			</tr>
+
+			<tfoot>
+				<tr>
+					<td colspan="2" align="center">
+					<input 
+						type="submit" value="SEND" 
+						onclick="action='exam04.html'">
+					<input
+						type="reset" value="CANCEL" onclick="resetForm()">
+					</td>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+</body>
+</html>

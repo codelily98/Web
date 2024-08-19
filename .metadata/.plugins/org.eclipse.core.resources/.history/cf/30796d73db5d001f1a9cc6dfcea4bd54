@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+//Java의 지역변수와 같다.(구역단위)
+	let a = 100;
+	a = 250;
+	console.log(a)
+	{
+		let a = 200;
+		console.log(a)
+		{
+			let a = 300;
+			console.log(a)
+			{
+				let a = 400;
+				console.log(a)
+			}
+		}
+	}
+</script>
+</body>
+</html>
