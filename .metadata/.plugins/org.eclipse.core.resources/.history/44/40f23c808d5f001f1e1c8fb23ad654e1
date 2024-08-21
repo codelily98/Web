@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>연인과의 날짜 계산</title>
+</head>
+<body>
+	<div>
+		<span id="meetDay"></span>
+	</div>
+<script type="text/javascript">
+let date = prompt("연인과 만나 날짜를 입력하세요", "xxxx/xx/xx");
+
+const meetDay = () => {
+	let today = new Date();
+	let meet_day = new Date(date);
+	
+	document.getElementById("meetDay").innerHTML = `오늘까지 우리는 ${today-meet_day}일 이다.`
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>나는 examHistory</title>
+</head>
+<body>
+	<h1>History 객체2</h1>
+	<a href="#" onclick="history.back(); return false;"
+</body>
+</html>

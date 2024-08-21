@@ -153,3 +153,46 @@
 8월 19, 2024 16:09:34.17 Created TensorFlow Lite XNNPACK delegate for CPU.
 8월 19, 2024 18:09:16.52 [15140:18884:0819/180916.525:ERROR:mcs_client.cc(749)] Received close command, resetting connection.
 8월 19, 2024 18:12:15.75 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+8월 20, 2024 14:14:57.31 NEW SESSION
+8월 20, 2024 14:14:57.33 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 20, 2024 14:35:52.61 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 20, 2024 14:44:08.01 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 20, 2024 14:44:59.02 [8280:8952:0820/144459.023:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Document already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+8월 20, 2024 14:48:28.77 [8280:8952:0820/144828.772:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Document already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+8월 20, 2024 14:48:28.77 [8280:8952:0820/144828.777:ERROR:CONSOLE(1)] "Request Page.reload failed. {"code":-32602,"message":"Document already navigated"}", source: devtools://devtools/bundled/devtools-frontend/front_end/core/protocol_client/protocol_client.js (1)
+8월 20, 2024 15:28:42.29 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 20, 2024 15:40:32.79 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 20, 2024 16:26:30.46 [26756:24392:0820/162630.463:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
+8월 20, 2024 16:36:11.12 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+8월 21, 2024 09:38:58.43 NEW SESSION
+8월 21, 2024 09:38:58.44 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 21, 2024 10:12:56.59 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 21, 2024 14:36:15.71 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 21, 2024 14:57:03.23 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 21, 2024 15:03:28.68 [13248:2884:0821/150328.684:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:29.00 [13248:2884:0821/150329.000:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:29.14 [13248:2884:0821/150329.141:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:29.28 [13248:2884:0821/150329.288:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:29.42 [13248:2884:0821/150329.427:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:29.52 [13248:2884:0821/150329.527:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:29.96 [13248:2884:0821/150329.960:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:30.42 [13248:2884:0821/150330.420:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:31.13 [13248:2884:0821/150331.130:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:31.27 [13248:2884:0821/150331.271:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:31.54 [13248:2884:0821/150331.540:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:31.64 [13248:2884:0821/150331.648:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:33.17 [13248:2884:0821/150333.175:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:33.68 [13248:2884:0821/150333.679:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:33.80 [13248:2884:0821/150333.806:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:33.91 [13248:2884:0821/150333.915:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:34.16 [13248:2884:0821/150334.168:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:34.48 [13248:2884:0821/150334.488:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.411 s for first_image_paint 0.402 s
+8월 21, 2024 15:03:59.47 [13248:2884:0821/150359.473:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.199 s for first_image_paint 0.194 s
+8월 21, 2024 15:03:59.75 [13248:2884:0821/150359.751:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.199 s for first_image_paint 0.194 s
+8월 21, 2024 15:03:59.89 [13248:2884:0821/150359.898:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.199 s for first_image_paint 0.194 s
+8월 21, 2024 15:04:00.01 [13248:2884:0821/150400.017:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.199 s for first_image_paint 0.194 s
+8월 21, 2024 15:04:00.12 [13248:2884:0821/150400.127:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint 0.199 s for first_image_paint 0.194 s
+8월 21, 2024 15:08:05.58 [13248:2884:0821/150805.586:ERROR:interface_endpoint_client.cc(722)] Message 5 rejected by interface blink.mojom.WidgetHost
+8월 21, 2024 15:45:32.20 Created TensorFlow Lite XNNPACK delegate for CPU.

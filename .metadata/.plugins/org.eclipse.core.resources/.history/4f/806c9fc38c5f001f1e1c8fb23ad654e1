@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>연인과의 날짜 계산</title>
+</head>
+<body>
+	<div>
+		<span id="meet_day"></span>
+	</div>
+<script type="text/javascript">
+function printTime() {
+	let days = ["일", "월", "화", "수", "목", "금", "토"];
+	let today = new Date();
+	let meet_day = new Date(입력);
+	
+	let yy = today.getFullYear(); //년
+	let mm = today.getMonth() + 1; //월, 1월 -> 0, 2월 -> 1
+	let dd = today.getDate(); //일
+	let i = today.getDay(); //요일(0~6)
+	let day = days[i];
+	
+	let hh = today.getHours();
+	let mi = today.getMinutes();
+	let ss = today.getSeconds();
+	
+	let result = `${yy}-${mm}-${dd} ${day}요일 ${hh}:${mi}:${ss}`;
+	
+	document.getElementById("timer").innerHTML = result;
+}
+</script>
+</body>
+</html>

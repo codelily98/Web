@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>연인과의 날짜 계산</title>
+</head>
+<body>
+	<div>
+		<span id="meetDay"></span>
+	</div>
+<script type="text/javascript">
+let date = prompt("연인과 만나 날짜를 입력하세요")
+
+const meetDay = () => {
+	let today = new Date();
+	let meet_Day = new Date(입력);
+	
+	let yy = today.getFullYear(); //년
+	let mm = today.getMonth() + 1; //월, 1월 -> 0, 2월 -> 1
+	let dd = today.getDate(); //일
+	let i = today.getDay(); //요일(0~6)
+	let day = days[i];
+	
+	let hh = today.getHours();
+	let mi = today.getMinutes();
+	let ss = today.getSeconds();
+	
+	let result = `${yy}-${mm}-${dd} ${day}요일 ${hh}:${mi}:${ss}`;
+	
+	document.getElementById("timer").innerHTML = result;
+}
+</script>
+</body>
+</html>

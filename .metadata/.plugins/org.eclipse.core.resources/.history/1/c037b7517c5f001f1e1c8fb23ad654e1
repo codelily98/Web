@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script type="text/javascript">
+let now = new Date(); //내장객체
+document.write(now);
+document.write(now.toLacleString());
+</script>
+</body>
+</html>

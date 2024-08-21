@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구구단</title>
+</head>
+<body onload="gugudan()">
+	<div>
+		<span id="gugudan"></span>
+	</div>
+	
+<script type="text/javascript">
+const gugudan = () => {
+	let result = "";
+	
+	for(let i = 1; i <= 9; i++) {
+		for(let j = 2; j <= 9; j++) {
+			result = j * i;
+			
+			document.getElementById("gugudan").innerHTML += `${j} * ${i} = ${result} `;
+			if(j == 9) {
+				document.getElementById("gugudan").innerHTML += `<br>`;
+			}
+		}
+	}
+}
+</script>
+</body>
+</html>
