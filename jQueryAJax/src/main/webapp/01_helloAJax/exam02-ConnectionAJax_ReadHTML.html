@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery와 AJax의 연결 - 2</title>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+	<h1 class="title">$.ajax() 함수를 사용한 HTML 읽기</h1>
+	<div class="exec">
+		<input type="button" value="HTML파일 가져오기" id="mybtn"/>
+	</div>
+	<div class="console" id="result"></div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#mybtn').click(function(){
+		$.ajax({
+			type: 'get',
+			//url: 'http://localhost:8080/jQueryAJax/text/text02.txt' (절대번지)
+			url: '../text/text02.txt', //위와 같은 의미이다. (상대번지)
+			dataType: 'text',
+			success: function(data) {
+				//$('#result').html(data); (하나)
+				$('#result').append(data); //(누를 때 마다 append로 계속 추가)
+			},
+			error: function(e) {
+				console.log(e);
+			}
+		});
+	});
+});
+</script>
+</body>
+</html>

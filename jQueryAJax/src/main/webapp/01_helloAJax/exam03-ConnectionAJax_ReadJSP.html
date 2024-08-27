@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery와 AJax의 연결 - 3</title>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+	<h1 class="title">$.ajax() 함수를 사용한 텍스트 읽기</h1>
+	<div class="exec">
+		<input type="button" value="JSP파일 가져오기" id="mybtn"/>
+	</div>
+	<div class="console" id="result"></div>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#mybtn').click(function(){
+		$.ajax({
+			type: 'get',
+			//url: '../text/textdata.jsp?변수=값&변수=값',
+			url: '../text/textdata.jsp',
+			dataType: 'text',
+			//data: '변수=값&변수=값' ?를 생략한다. //값에는 공백 입력이 가능하다.
+			//data: {변수: 값}, //JSON 방식으로도 작성이 가능하다.
+			data: {'keyword': 'Hello AJax!!'},
+			success: function(data) {
+				$('#result').append(data);
+			},
+			error: function(e) {
+				console.log(e);
+			}
+		});
+	});
+});
+</script>
+</body>
+</html>
+
+<!-- 
+contentType 해당 문서의 타입을 지정 : HTML, XML 등
+<%@ %> 페이지 디렉티브
+ -->

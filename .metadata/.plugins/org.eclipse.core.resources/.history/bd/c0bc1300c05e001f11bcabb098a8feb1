@@ -1,7 +1,0 @@
-//빈 객체로 생성
-class Calc {
-	
-}
-
-//객체 생성
-Calc calc = new Calc();

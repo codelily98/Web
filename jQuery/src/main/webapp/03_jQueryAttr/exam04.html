@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>활성/비활성 구현</title>
+</head>
+<body>
+	<h1>활성/비활성 구현하기</h1>
+	<form name="form1">
+		<input type="checkbox" id="upload_file_check" value="Y"/>
+		<input type="file" id="file_finder" disabled="disabled"/>
+	</form>	
+	
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#upload_file_check').change(function() {
+		let isCheck = $('#upload_file_check').is(':checked');
+		
+		if(!isCheck) {
+			$('#file_finder').prop('disabled', 'disabled');
+		} else {
+			$('#file_finder').prop('disabled', '');
+		}
+	});
+	
+	/* 위와 같은 의미이지만 더욱 간단하다. 
+	$(function(){
+	   $('#upload_file_check').change(function(){
+	      let isChk = !$(this).is(':checked');
+	      $('#file_finder').prop('disabled',isChk);
+	   });
+	}); 
+	*/
+});
+</script>
+</body>
+</html>

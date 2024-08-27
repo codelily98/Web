@@ -73,30 +73,31 @@ let noArray = [];
 		do {
 			newNo = randNo();
 		} while (noArray.includes(newNo));
-		
+		/*
+		do-while 대신 밑에와 같이 작성해도 중복 체크가 가능하다
+		if (noArray.indexOf(randNo) === -1) {
+			noArray.push(randNo);
+		}
+		*/
+
 		noArray[i] = newNo;
 		
-		if(i < 6) {
-			if(newNo <= 10) {
-				document.getElementById(i+1).style.background = 'yellow';
-			} else if (newNo > 10 && newNo <= 20) {
-				document.getElementById(i+1).style.background = 'blue';
-			} else if (newNo > 20 && newNo <= 30) {
-				document.getElementById(i+1).style.background = 'red';
-			} else if (newNo > 30 && newNo <= 40) {
-				document.getElementById(i+1).style.background = 'black';
-			} else {
-				document.getElementById(i+1).style.background = 'green';
-			}
-			document.getElementById(i+1).innerHTML = `${newNo}`;
+		if(newNo <= 10) {
+			document.getElementById(i+1).style.background = 'yellow';
+		} else if (newNo > 10 && newNo <= 20) {
+			document.getElementById(i+1).style.background = 'blue';
+		} else if (newNo > 20 && newNo <= 30) {
+			document.getElementById(i+1).style.background = 'red';
+		} else if (newNo > 30 && newNo <= 40) {
+			document.getElementById(i+1).style.background = 'black';
 		} else {
+			document.getElementById(i+1).style.background = 'green';
+		} if(i >= 6) {
 			document.getElementById("plus").innerHTML = `+`;
-			document.getElementById(i+1).style.background = 'gray';
-			document.getElementById(i+1).innerHTML = `${newNo}`;
 		}
+		document.getElementById(i+1).innerHTML = `${newNo}`;
 	}
 }
-
 </script>
 </body>
 </html>

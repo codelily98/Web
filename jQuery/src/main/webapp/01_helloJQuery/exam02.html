@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery $ - 1</title>
+</head>
+<body>
+	<h1 id="hello"></h1>
+	
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+function hello($) {
+	//document.getElementById('hello'); 와 같은 의미
+	var h1 = $('#hello');
+	//h1.innerHTML = "Hello jQuery"; 와 같은 의미
+	h1.html('Hello jQuery');
+	//h1.innerText = "Hello jQuery"; 와 같은 의미
+	h1.text('Hello jQuery');
+}
+jQuery(hello);
+</script>
+</body>
+</html>

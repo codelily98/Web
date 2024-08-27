@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jQuery와 AJax의 연결 - 1</title>
+<link rel="stylesheet" href="../css/common.css">
+<link rel="stylesheet" href="../css/reset.css">
+</head>
+<body>
+	<h1 class="title">$.ajax() 함수를 사용한 텍스트 읽기</h1>
+	<div class="exec">
+		<input type="button" value="txt파일 가져오기" id="mybtn"/>
+	</div>
+	<div class="console" id="result"></div>
+	
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#mybtn').click(function(){
+		//jQuery.ajax(); //jQuery와 ajax 연결 선언
+		$.ajax({ //위와 같은 의미 $ = jQuery
+			type: 'get',	//get방식 or post방식 중에 선택한다
+			//서버에 요청할 URL
+			//url: 'http://localhost:8080/Contest(프로젝트명)/'
+			url: 'http://localhost:8080/jQueryAJax/text/text01.txlt',
+			//서버로 부터 받는 데이터의 자료형
+			dataType: 'text',	//'text' or 'xml' or 'JSON' 으로만 받을 수 있다.
+			//success 코드는 200(Success), 404(URL), 405(Service), 500(Code = Server) 같은 에러가 있다.
+			success: function(data){ //받아올 'data'는 변경이 가능하지만 data로 작성하는 것이 좋다.
+				$('#result').html(data);
+			},	
+			error: function(xhr, textStatus, errorThrown){ //에러가 발생하면 에러의 상태를 텍스트로 자세하게 찍어주세요.
+                $('div').html('<div>' + textStatus + '(HTTP-' + xhr.status + '/' +  errorThrown + ')' + '</div>');
+            }
+		}); 
+	});
+});
+</script>
+</body>
+</html>
